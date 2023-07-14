@@ -1,0 +1,77 @@
+#+BIBLIOGRAPHY: ~/myspace/Bibliography/references.bib
+
+#+TITLE: 機械学習セミナー
+#+AUTHOR: k-sunako
+#+DATE: [2023-03-29 水]
+
+* abscract
+
+* expected
+機械学習の基礎理論を学ぶことである。基礎理論の前提としてある確率論も併
+せて勉学の対象となる。
+
+* resources
++ [[id:8efb351b-7a7a-41f6-9ce3-513fe9329727][スピヴァックデヴィッド I - みんなの圏論: 演習中心アプローチ]]
+
+* artifacts
++ 演習問題のレポート
+  
+* badget
++ iPX 08:00 - 09:00
+
+* schedule/tasks
+** NEXT 第1章　生成的効果：順序とガロア接続
+:LOGBOOK:
+CLOCK: [2023-04-10 月 20:05]--[2023-04-10 月 20:29] =>  0:24
+CLOCK: [2023-04-10 月 08:00]--[2023-04-10 月 08:30] =>  0:30
+CLOCK: [2023-04-09 日 09:49]--[2023-04-09 日 10:09] =>  0:20
+:END:
+
+** 第2章　資源理論：モノイダル擬順序と豊穣化
+SCHEDULED: <2023-04-24 月 08:00>
+:PROPERTIES:
+:ID:       org-hyperscheduler-id:8fd2280a-9ca0-4324-bdd1-6528c7ac4d92
+:END:
+:LOGBOOK:
+CLOCK: [2023-04-26 水 04:50]--[2023-04-26 水 05:09] =>  0:19
+CLOCK: [2023-04-24 月 20:13]--[2023-04-24 月 20:28] =>  0:15
+:END:
+
+** 第3章　データベース：圏，関手，普遍的構成
+
+** 第4章　協調設計：プロ関手，圏化，モノイダル圏
+
+** 第5章　信号流れ図：prop，表示，証明
+
+** 第6章　電気回路：ハイパーグラフ圏とオペラッド
+
+** 第7章　振る舞いの論理：層，トポス，内部言語
+
+
+
+* time tracking
+** this week
+#+BEGIN: clocktable :scope file :maxlevel 3 :block thisweek
+#+CAPTION: Clock summary at [2023-04-10 月 19:19], for week 2023-W15.
+| Headline                                | Time   |      |
+|-----------------------------------------+--------+------|
+| *Total time*                            | *0:30* |      |
+|-----------------------------------------+--------+------|
+| schedule/tasks                          | 0:30   |      |
+| \_  第1章　生成的効果：順序とガロア接続 |        | 0:30 |
+#+END:
+
+** this month
+#+BEGIN: clocktable :scope file :maxlevel 3 :block thismonth
+#+CAPTION: Clock summary at [2023-04-10 月 19:19], for 4月 2023.
+| Headline                                | Time   |      |
+|-----------------------------------------+--------+------|
+| *Total time*                            | *0:50* |      |
+|-----------------------------------------+--------+------|
+| schedule/tasks                          | 0:50   |      |
+| \_  第1章　生成的効果：順序とガロア接続 |        | 0:50 |
+#+END:
+
+
+* references
+#+print_bibliography:

@@ -1,0 +1,534 @@
+* 1.1 冒頭                                                               :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-12T10:51:03Z
+:FC_TYPE:  cloze
+:ID:       80987098-3824-4a6a-a172-a9d99df37583
+:FC_CLOZE_MAX: 5
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.65 |   4 |    17.02 | 2023-05-10T11:59:09Z |
+|        1 | 2.80 |   4 |    15.33 | 2023-05-08T19:27:57Z |
+|        2 | 2.80 |   4 |    16.20 | 2023-05-09T16:20:13Z |
+|        3 | 2.80 |   4 |    15.27 | 2023-05-08T17:51:59Z |
+|        4 | 2.65 |   4 |    16.14 | 2023-05-09T14:52:52Z |
+|        5 | 2.50 |   4 |    15.91 | 2023-05-09T09:21:58Z |
+:END:
+実世界の多くの構造が{{合成的}@0}であるが、それらを{{観測}@1}した{{結果}@2}は
+しばしばそうでない。このことに気づくことが、この最初の章の動機づけであ
+る。そのようなことが起こるのは、{{観測}@3}が本質的に「{{情報の損失を伴
+う}@4}」からである。何かから{{情報}@5}を取りだすには、その細部を放棄しなけ
+ればならない。
+
+* 生成的効果とは？                                                       :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-12T10:58:57Z
+:FC_TYPE:  cloze
+:ID:       01b6e2e7-d2d3-47b6-8299-9344915ecdf5
+:FC_CLOZE_MAX: 6
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.80 |   4 |    18.34 | 2023-05-11T19:38:26Z |
+|        1 | 2.80 |   4 |    15.19 | 2023-05-08T15:59:16Z |
+|        2 | 2.20 |   4 |    13.45 | 2023-05-21T22:56:08Z |
+|        3 | 2.80 |   4 |    15.22 | 2023-05-08T16:51:27Z |
+|        4 | 2.50 |   4 |    15.19 | 2023-05-23T16:38:38Z |
+|        5 | 2.35 |   4 |    14.23 | 2023-05-22T17:49:19Z |
+|        6 | 2.65 |   4 |    15.88 | 2023-05-09T08:32:47Z |
+:END:
+圏論では、さまざまな{{観測}@0}の下で系のどの系のどの特徴が保たれているか
+を把握しておきたい。すでに述べたように、系の{{観測}@1}によって{{構造が保
+たれなければ保たれない}@2}ほど、その操作を{{観測}@3}するときに生じる「{{意
+外さ}@4}」は大きくなる。このように意外さは、{{生成的効果}@5}({{generative
+effect}@6})とよんでもよいだろう。
+
+* 定義 1.8                                                               :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-12T11:24:05Z
+:FC_TYPE:  cloze
+:ID:       60a7c983-87ad-40f0-94c6-0e68c3651ad5
+:FC_CLOZE_MAX: 5
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.35 |   5 |    31.93 | 2023-06-09T10:30:42Z |
+|        1 | 2.65 |   4 |    16.50 | 2023-05-09T23:24:48Z |
+|        2 | 2.50 |   4 |    15.20 | 2023-05-08T16:17:54Z |
+|        3 | 2.50 |   4 |    15.55 | 2023-05-09T00:38:02Z |
+|        4 | 2.50 |   4 |    16.48 | 2023-05-09T22:57:19Z |
+|        5 | 2.80 |   4 |    15.48 | 2023-05-08T22:58:22Z |
+:END:
+X と Y を集合とする。X と Y の間の {{関係}@0} ({{relation}@1}) は、部分集
+合 {{$R \subsetneq X \times Y$}@2} である。X上の {{二項関係}@3} ({{binary
+relation}@4}) は、X と X の間の関係、すなわち部分集合 {{$R \subsetneq X
+\times X$}@5}である。
+
+* 定義 2.1                                                               :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-13T11:29:23Z
+:FC_TYPE:  cloze
+:ID:       44cef3d0-0608-4a00-ba02-81ea90e9edb3
+:FC_CLOZE_MAX: 3
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.50 |   5 |    33.93 | 2023-06-11T10:35:04Z |
+|        1 | 2.65 |   4 |    15.63 | 2023-05-09T02:37:07Z |
+|        2 | 2.80 |   4 |    18.27 | 2023-05-11T17:53:59Z |
+|        3 | 2.65 |   4 |    16.42 | 2023-05-09T21:38:37Z |
+:END:
+擬順序 $(X, \leq)$ 上の(ストリクト)対称モノイダル構造(symmetric
+monoidal structure) は次のような構成要素からなる。
+
+1. {{モノイダル単位元}@0} {{(monoidal unit)}@1} とよばれる要素 $I \in X$
+2. {{モノイダル積}@2} {{(monoidal product)}@3} とよばれる関数 $\otimes: X \times X \rightarrow X$
+
+* 定義 2.1                                                     :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-14T10:41:04Z
+:FC_TYPE:  cloze
+:ID:       65b45ae4-9cf4-426f-ad3b-a9fb4ff002a7
+:FC_CLOZE_MAX: 11
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.65 |   4 |    15.49 | 2023-05-08T23:16:23Z |
+|        1 | 2.20 |   5 |    34.25 | 2023-06-11T18:04:32Z |
+|        2 | 2.05 |   1 |     0.01 | 2023-05-08T12:38:51Z |
+|        3 | 2.20 |   2 |     1.00 | 2023-05-09T12:24:42Z |
+|        4 | 2.65 |   4 |    16.15 | 2023-05-09T14:56:46Z |
+|        5 | 2.80 |   4 |    15.56 | 2023-05-09T00:55:35Z |
+|        6 | 2.35 |   5 |    36.49 | 2023-06-14T00:01:46Z |
+|        7 | 2.65 |   4 |    15.87 | 2023-05-09T08:24:05Z |
+|        8 | 2.65 |   5 |    38.11 | 2023-06-15T14:53:23Z |
+|        9 | 2.35 |   1 |     0.01 | 2023-05-08T12:41:51Z |
+|       10 | 2.65 |   4 |    16.50 | 2023-05-09T23:35:33Z |
+|       11 | 2.65 |   4 |    16.48 | 2023-05-09T23:08:58Z |
+:END:
+対称モノイダル構造は下記の性質を満たす
++ {{単調性}@0}({{monotonicity}@1}) :: すべての $x_1, x_2, y_1, y_2 \in X$ に対して、{{ $x_1 \leq y_1$ かつ $x_2 \leq y_2$ ならば $x_1 \otimes x_2 \leq y_1 \otimes y_2$ である }@2}
++ {{単位律}@3}({{unitality}@4}) :: すべての $x \in X$ に対して、 {{等式 $I \otimes x = x$ および $x \otimes I = x$ が成り立つ}@5}
++ {{結合律}@6}({{associativity}@7}) :: すべての $x, y, z \in X$ に対して、{{等式 $(x \otimes y) \otimes z = x \otimes (y \otimes z)$ が成り立つ}@8}
++ {{対称律}@9}({{symmetry}@10}) :: すべての $x, y \in X$ に対して、{{等式 $x \otimes y = y \otimes x$ が成り立つ}@11}
+
+* Bool                                                                   :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-17T10:22:34Z
+:FC_TYPE:  cloze
+:ID:       62fd5ac1-f859-4d07-b5b8-1788a345a0ac
+:FC_CLOZE_MAX: 2
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.50 |   3 |     6.00 | 2023-05-14T12:05:13Z |
+|        1 | 2.65 |   4 |    16.41 | 2023-05-18T20:09:32Z |
+|        2 | 2.05 |   3 |     6.00 | 2023-05-14T12:15:26Z |
+:END:
+$\mathbb{B}$ 上でモノイダル単位元を {{true}@0} とし、モノイダル積を
+{{$\wedge$ (論理積)}@1} とするモノイダル構造 {{$\bold{Bool} := (\mathbb{B}, \leq, true, \wedge)$}@2} である。
+
+* Cost                                                                   :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-17T10:24:50Z
+:FC_TYPE:  cloze
+:ID:       ba0e047a-e37e-44c0-9fa2-7eb369affbec
+:FC_CLOZE_MAX: 2
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.35 |   4 |    14.71 | 2023-05-17T03:26:36Z |
+|        1 | 2.65 |   4 |    15.10 | 2023-05-17T12:50:03Z |
+|        2 | 2.65 |   4 |    16.20 | 2023-05-18T15:10:44Z |
+:END:
+$[0, \infty]$ に擬順序 $([0, \infty], \geq)$ を適用したモノイダル構造を下記のように定める。
++ モノイダル単位元: {{0}@0}
++ モノイダル積: {{+}@1}
+
+Cost = {{$([0, \infty], \geq, 0, +)$}@2}
+
+* モノイダル単調写像                                                     :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-17T10:33:09Z
+:FC_TYPE:  cloze
+:ID:       e82d0ccf-1cc5-4524-be4e-b28d738f3401
+:FC_CLOZE_MAX: 3
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.35 |   4 |    14.27 | 2023-05-16T16:52:39Z |
+|        1 | 2.35 |   4 |    14.36 | 2023-05-16T19:04:19Z |
+|        2 | 2.50 |   3 |     6.00 | 2023-05-14T12:16:20Z |
+|        3 | 1.90 |   1 |     0.01 | 2023-05-08T12:43:31Z |
+:END:
+$\mathcal{P} = (P, \leq_P, I_P, \otimes_P)$ と $\mathcal{Q} = (Q,
+\leq_Q, I_Q, \otimes_Q)$ をモノイダル擬順序とする。
+
+$\mathcal{P}$ から $\mathcal{Q}$ への {{モノイダル単調写像}@0} ({{monoidal
+monotone map}@1})とは、すべての $p_1, p_2 \in P$ に対して次の2条件を満たす単調写像
+$f:(P, \leq_P) \rightarrow (Q, \leq_Q)$ である。
+1. {{$I_Q \leq_Q f(I_P)$}@2}
+2. {{$f(p_1) \otimes_Q f(p_2) \leq_Q f(p_1 \otimes p_2)$}@3}
+
+* V圏                                                                    :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-24T11:22:19Z
+:FC_TYPE:  cloze
+:ID:       18a28ba4-1f7b-426d-94ae-8345b4ed9606
+:FC_CLOZE_MAX: 2
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.50 |   4 |    14.98 | 2023-05-23T11:42:51Z |
+|        1 | 2.50 |   4 |    15.62 | 2023-05-24T03:10:46Z |
+|        2 | 2.35 |   4 |    14.32 | 2023-05-22T19:57:59Z |
+:END:
+$\mathcal{V}=(V, \leq, I, \otimes)$ を対称モノイダル擬順序とする。
+$\mathcal{V}$ 圏($\mathcal{V}$-category) $\mathcal{X}$ は、二つの構成
+要素からなり、二つの性質を満す。具体的にな、 $\mathcal{X}$ を規定する
+ためには、
+
+1. {{対象(object)}@0} と呼ばれる要素の集合 {{$Ob(\mathcal{X})$}@1} を規定し、
+2. すべての対象 $x, y$ に対して、 {{射対象 (hom-object)}@2} とよばれる要素
+   $\mathcal{X}(x, y) \in V$ を規定する。
+
+* V圏                                                                    :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-24T11:23:12Z
+:FC_TYPE:  cloze
+:ID:       68cfd5f7-7dd2-403f-a3aa-e5f29b31534d
+:FC_CLOZE_MAX: 1
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.35 |   4 |    12.70 | 2023-05-21T05:05:52Z |
+|        1 | 2.20 |   2 |     1.00 | 2023-05-09T12:23:49Z |
+:END:
+$\mathcal{V}=(V, \leq, I, \otimes)$ を対称モノイダル擬順序とする。
+$\mathcal{V}$ 圏($\mathcal{V}$-category) $\mathcal{X}$ は、二つの構成
+要素からなり、二つの性質を満す。具体的にな、 $\mathcal{X}$ を規定する
+ためには、これらの構成要素は、次の二つの性質を満たさなければならない。
+
+1. すべての対象 $x\in Ob(\mathcal{X})$ に対して、 {{$I \leq
+   \mathcal{X}(x, x)$}@0}
+2. すべての対象 $x, y, z \in Ob(\mathcal{X})$ に対して、
+   {{$\mathcal{X}(x, y) \otimes \mathcal{X}(y, z) \leq \mahtcal{X}(x,
+   z)$}@1}
+
+* V圏                                                                    :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-24T11:23:10Z
+:FC_TYPE:  cloze
+:ID:       0f2c7a66-db2d-41ac-9e2e-af56dee6cd2f
+:FC_CLOZE_MAX: 1
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.20 |   3 |     6.00 | 2023-05-14T12:06:23Z |
+|        1 | 2.65 |   4 |    14.46 | 2023-05-22T23:18:53Z |
+:END:
+$\mathcal{V}=(V, \leq, I, \otimes)$ を対称モノイダル擬順序とする。
+$\mathcal{V}$ 圏( $\mathcal{V}$ -category) $\mathcal{X}$ は、二つの構成
+要素からなり、二つの性質を満す。具体的にな、 $\mathcal{X}$ を規定する
+ためには、
+
+$\mathcal{V}$ を $\mathcal{X}$ に対する{{豊穣化の基底(base)}@0}とよぶ。また、
+$\mathcal{X}$ は $\mathcal{V}$ で{{豊穣化されている(enriched)}@1}という。
+
+* 定理 2.32                                                              :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-24T11:25:28Z
+:FC_TYPE:  cloze
+:ID:       8671f019-e0e9-4c33-8435-555db06e0a57
+:FC_CLOZE_MAX: 0
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.20 |   2 |     1.00 | 2023-05-09T12:22:38Z |
+:END:
+擬順序と{{Bool圏}@0}の間には1対1対応がある
+
+* x                                                                      :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-24T11:26:20Z
+:FC_TYPE:  cloze
+:ID:       1fe788fc-21ea-4ea1-889a-458fa7a3c4f1
+:FC_CLOZE_MAX: 0
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.50 |   4 |    13.76 | 2023-05-22T06:30:26Z |
+:END:
+ローヴェア距離空間(Lawvere metric space)とは{{Cost圏}@0}のことである。
+
+* 構成法                                                                 :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-25T19:44:32Z
+:FC_TYPE:  cloze
+:ID:       53054890-f6f2-415f-8811-f79960aff621
+:FC_CLOZE_MAX: 2
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.20 |   1 |     0.01 | 2023-05-08T12:42:52Z |
+|        1 | 2.20 |   1 |     0.01 | 2023-05-08T12:39:01Z |
+|        2 | 2.50 |   1 |     0.01 | 2023-05-08T12:39:18Z |
+:END:
+P.059
+
+$f: \mathcal{V} \rightarrow \mathcal{W}$ をモノイダル単調写像とする。
+$\mathcal{V}$ 圏 $\mathcal{C}$ が与えられたとき、それに付随する
+$\mathcal{W}$ 圏 $\mathcal{C}_f$ を次のように作る。
+
+1. 対象は {{$\mathcal{C}$ と同じ}@0}、すなわち {{$Ob(\mathcal{C}_f) :=
+   Ob(\mathcal{C})$}@1} .
+2. 任意の $c, d \in Ob(\mathcal{C})$ に対して、 {{$\mathcal{C}_f(c, d) :
+   = f(\mathcal{C}(c, d))$}@2}
+
+* 関手                                                                   :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-04-25T20:07:53Z
+:FC_TYPE:  cloze
+:ID:       e79d5a01-e0ff-4c78-8b24-03f462b4aa33
+:FC_CLOZE_MAX: 3
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.35 |   4 |    12.84 | 2023-05-21T08:20:53Z |
+|        1 | 2.65 |   4 |    15.09 | 2023-05-23T14:20:18Z |
+|        2 | 2.35 |   1 |     0.01 | 2023-05-08T12:41:39Z |
+|        3 | 2.20 |   1 |     0.01 | 2023-05-08T12:41:42Z |
+:END:
+$\mathscr{X}$ と $\mathcal{Y}$ を $\mathcal{V}$ 圏とする。
+$\mathcal{X}$ から $\mathcal{Y}$ への {{$\mathcal{V}$ 関手}@0} 
+({{$\mathcal{V}$ -functor}@1}) を {{$F: \mathcal{X} \rightarrow \mathcal{Y}$}@2} と
+表記し、その構成要素
+
+1. 関数 $F: Ob(\mathcal{X}) \rightarrow Ob(\mathcal{Y})$
+
+が次の制約に従う。
+
+1. すべての $x_1, x_2 \in Ob(\mathcal{X})$ に対して、
+   {{$\mathcal{X}(x_1, x_2) \leq \mathcal{Y}(F(x_1, x_2))$}@3}
+
+* x                                                                      :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-05-01T11:30:39Z
+:FC_TYPE:  cloze
+:ID:       1b9961aa-4afd-474e-a24d-0f18d535451e
+:FC_CLOZE_MAX: 3
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.50 |   2 |     1.00 | 2023-05-09T12:05:37Z |
+|        1 | 2.50 |   2 |     1.00 | 2023-05-09T12:11:18Z |
+|        2 | 2.50 |   3 |     6.00 | 2023-05-14T12:15:57Z |
+|        3 | 2.50 |   3 |     6.00 | 2023-05-14T12:23:09Z |
+:END:
+
+与えられた擬順序 $(P, \leq)$ に対して、その{{逆擬順序}@0} ({{oppsite
+preorder}@1}) {{$(P, \leq^{op})$}@2} は、要素の集合な同じだが、 $q \leq p$
+であるとき、そしてそのときに限り、 {{$p \leq^{op} q$}@3} であるような擬
+順序として定義できる.
+
+* x                                                                      :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-05-01T11:37:52Z
+:FC_TYPE:  cloze
+:ID:       d3f394af-67b3-4ef7-9b72-c7f5f578bea8
+:FC_CLOZE_MAX: 2
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.50 |   2 |     1.00 | 2023-05-09T12:06:50Z |
+|        1 | 2.50 |   3 |     6.00 | 2023-05-14T12:16:46Z |
+|        2 | 2.65 |   3 |     6.00 | 2023-05-14T12:20:16Z |
+:END:
+恒等関数 $id_P: P \rightarrow P$ が単調写像 {{$(P, \leq) \rightarrow
+(P, \leq^{op})$}@0} であるのは、すべての $p, q \in P$ に対して {{$p \leq
+q$ ならば $q \leq p$}@1} となるとき、そしてそのときに限る. {{線形代数}@2}
+に関連する歴史的理由により、これが成り立つとき、 $(P, \leq)$ を ダガー
+擬順序 (dagger preorder) と呼ぶ。
+
+* x                                                                      :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-05-01T11:38:08Z
+:FC_TYPE:  cloze
+:ID:       7b23c640-0fab-4875-bfc7-54f09dbf003a
+:FC_CLOZE_MAX: 1
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.50 |   3 |     6.00 | 2023-05-14T12:19:33Z |
+|        1 | 2.50 |   3 |     6.00 | 2023-05-14T12:23:17Z |
+:END:
+恒等関数 $id_P: P \rightarrow P$ が単調写像 $(P, \leq) \rightarrow (P,
+\leq^{op})$ であるのは、すべての $p, q \in P$ に対して $p \leq q$ なら
+ば $q \leq p$ となるとき、そしてそのときに限る. 線形代数に関連する歴史
+的理由により、これが成り立つとき、 $(P, \leq)$ を {{ダガー擬順序}@0}
+({{dagger preorder}@1}) と呼ぶ。
+
+* x                                                                      :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-05-02T10:13:21Z
+:FC_TYPE:  cloze
+:ID:       4f3df96c-ec2e-47f1-9063-27224916e36a
+:FC_CLOZE_MAX: 8
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.65 |   3 |     6.00 | 2023-05-14T12:05:23Z |
+|        1 | 2.50 |   3 |     6.00 | 2023-05-14T12:09:15Z |
+|        2 | 2.65 |   3 |     6.00 | 2023-05-14T12:09:43Z |
+|        3 | 2.50 |   2 |     1.00 | 2023-05-09T12:12:37Z |
+|        4 | 2.50 |   2 |     1.00 | 2023-05-09T12:12:42Z |
+|        5 | 2.20 |   2 |     1.00 | 2023-05-09T12:28:33Z |
+|        6 | 2.35 |   3 |     6.00 | 2023-05-14T12:15:46Z |
+|        7 | 2.50 |   3 |     6.00 | 2023-05-14T12:22:52Z |
+|        8 | 2.65 |   3 |     6.00 | 2023-05-14T12:24:02Z |
+:END:
+擬順序がさらに次の性質を持つならば、{{半順序 (partial order)}@0} である。
+
+1. {{$x \cong y$}@1} ならば $x = y$
+
+圏論の用語を使うと、 {{$x \cong y$}@2} ならば $x = y$ になるという要請は
+{{骨格性}@3}({{skeletality}@4}) として知られているので、{{半順序}@5}は{{骨格
+的擬順序}@6} ({{skeletal preorder}@7}) である。半順序集合 (partially
+ordered set) を縮めた {{poset}@8} という用語も使う。
+
+* P.022                                                                  :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-05-04T08:59:00Z
+:FC_TYPE:  cloze
+:ID:       311a1684-c817-4b77-afe9-07c76df7fa16
+:FC_CLOZE_MAX: 3
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.50 |   1 |     0.01 | 2023-05-08T12:23:04Z |
+|        1 | 2.50 |   2 |     1.00 | 2023-05-09T12:24:46Z |
+|        2 | 2.50 |   1 |     0.01 | 2023-05-08T12:41:04Z |
+|        3 | 2.50 |   1 |     0.01 | 2023-05-08T12:42:47Z |
+:END:
+$(P, \leq)$ を擬順序とし、 $A \subseteq P$ を部分集合とする。要素 $p
+\in P$ は、次の2つの条件を満たすとき、A の{{交わり}@0} ({{meet}@1}) という。
+
+1. すべての $a \in A$ に対して、 {{$p \leq a$}@2} である。
+2. すべての $a \in A$ に対して、 $q \leq a$ であるようなすべての $q$
+   に対して、 {{$q \leq p$}@3} である。
+
+$p = \bigwedge A$ 、 $p = \bigwedge_{a \in A} a$ 、あるいは束縛される
+変数aが文脈からあきらかな場合には単に $p = \bigwedge_A a$ と書く。
+
+* P.022                                                                  :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-05-04T09:01:02Z
+:FC_TYPE:  cloze
+:ID:       876360db-e447-47a3-a110-16e413470c84
+:FC_CLOZE_MAX: 3
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 | 2.50 |   2 |     1.00 | 2023-05-09T12:17:06Z |
+|        1 | 2.50 |   2 |     1.00 | 2023-05-09T12:21:27Z |
+|        2 | 2.50 |   1 |     0.01 | 2023-05-08T12:35:58Z |
+|        3 | 2.50 |   1 |     0.01 | 2023-05-08T12:43:08Z |
+:END:
+
+$(P, \leq)$ を擬順序とし、 $A \subseteq P$ を部分集合とする。要素 $p
+\in P$ は、次の2つの条件を満たすとき、A の{{結び}@0} ({{join}@1}) という。
+
+1. すべての $a \in A$ に対して、 {{$a \leq p$}@2} である。
+2. すべての $a \in A$ に対して、 $a \leq q$ であるようなすべての $q$
+   に対して、 {{$p \leq q$}@3} である。
+
+$p = \bigvee A$ 、 $p = \bigvee_{a \in A} a$ 、あるいは束縛される
+変数aが文脈からあきらかな場合には単に $p = \bigwedge_A a$ と書く。
+
+* def category                                                           :fc:
+:PROPERTIES:
+:FC_CREATED: 2023-05-10T11:30:05Z
+:FC_TYPE:  cloze
+:ID:       a3bc6c58-3354-45b1-aa94-0de84c1417b3
+:FC_CLOZE_MAX: 17
+:FC_CLOZE_TYPE: enumeration
+:END:
+:REVIEW_DATA:
+| position | ease | box | interval | due                  |
+|----------+------+-----+----------+----------------------|
+|        0 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|        1 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|        2 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|        3 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|        4 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|        5 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|        6 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|        7 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|        8 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|        9 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|       10 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|       11 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|       12 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|       13 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|       14 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|       15 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|       16 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+|       17 |  2.5 |   0 |        0 | 2023-05-10T11:30:05Z |
+:END:
+圏 (category) $\mathcal{C}$ を規定するためには、
+
+1. {{対象}@0} ({{object}@1}) と呼ばれる要素の集まり $Ob(\mathcal{C})$ を規定し、
+2. すべての対象 c,d に対して、 c から d への{{射}@2} ({{morphism}@3}) と呼ばれる要
+   素の集合 {{$\mathcal{C}(c, d)$}@4} を規定し、
+3. すべての対象 $c \in Ob(\mathcal{C})$ に対して、 c 上の{{恒等射}@5}
+   ({{identity morphism}@6}) と呼ばれる{{射}@7} $id_c \in \mathcal{C}(c, c)$ を規定し、
+4. すべての対象 $c, d, e \in Ob(\mathcal{C})$ と射 $f \in
+   \mathcal{C}(c, d)$ 、 $g \in \mathcal{C}(d, e)$ に対して、 f と g
+   の{{合成}@8} ({{composite}@9}) と呼ばれる射 $f;g \in \mathcal{C}$ を規定する
+
+
+1. {{単位律}@10} ({{unitality}@11}) : {{恒等射}@12}
+2. {{結合律}@13} ({{associativity}@14}) : {{合成}@15}の{{結合律}@16} {{f;(g;h)}@17} = (f;g);h
+
